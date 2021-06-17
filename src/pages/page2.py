@@ -40,14 +40,14 @@ page2 = html.Div(
                 dbc.Col(
                     html.Div(
                         dcc.Graph(figure=fig_pc),
-                        style={"height": "300px", "border-style": "solid"},
+                        style={"height": "400px", "border-style": "solid"},
                     ),
                     md=6,
                 ),
                 dbc.Col(
                     html.Div(
                         dcc.Graph(figure=fig_mob),
-                        style={"height": "300px", "border-style": "solid"},
+                        style={"height": "400px", "border-style": "solid"},
                     ),
                     md=6,
                 ),
@@ -63,7 +63,7 @@ page2 = html.Div(
                     html.Div(
 
                         dcc.Graph(figure=fig_con),
-                        style={"height": "300px", "border-style": "solid", "margin-top": "40px"},
+                        style={"height": "400px", "border-style": "solid", "margin-top": "40px"},
                     ),
 
                 ),

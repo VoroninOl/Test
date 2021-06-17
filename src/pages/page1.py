@@ -56,14 +56,14 @@ page1 = html.Div(
                 dbc.Col(
                     html.Div(
                         dcc.Graph(figure=fig_age),
-                        style={"height": "300px", "border-style": "solid"}
+                        style={"height": "450px", "border-style": "solid"}
                     ),
                     md=6,
                 ),
                 dbc.Col(
                     html.Div(
                         dcc.Graph(figure=fig_sex),
-                        style={"height": "300px", "border-style": "solid"},
+                        style={"height": "450px", "border-style": "solid"},
                     ),
                     md=6,
                 ),
